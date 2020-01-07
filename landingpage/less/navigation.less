@@ -1,0 +1,28 @@
+
+.navBorder {
+  width: 100%;
+  background: @slightblack;
+}
+
+.navBar {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  .navTitle {
+    .flex-nav(center, center);
+    font-size: 5em;
+    padding-bottom: 10px;
+  
+  }
+  .navLinks {
+    .flex-nav(space-evenly, center);
+    a {
+      .list-style(@goldyellow, none);
+      &:hover {
+        color: yellow;
+      }
+    }
+  }
+}
