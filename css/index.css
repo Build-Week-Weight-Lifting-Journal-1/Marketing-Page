@@ -155,8 +155,8 @@ p {
   line-height: 1.4;
 }
 img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: auto;
 }
 a {
   font-size: 1.6rem;
@@ -275,4 +275,29 @@ footer {
   background-color: #18181E;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.home {
+  background-color: #18181E;
+}
+.home .aboutUs .aboutUs-text h2 {
+  padding: 15px;
+}
+.home .aboutUs .aboutUs-text p {
+  padding: 0 15px;
+}
+.home .developers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fffefc;
+  padding: 15px;
+  background-color: #D9A036;
+}
+.home .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .contact p {
+  padding: 0 15px;
 }
