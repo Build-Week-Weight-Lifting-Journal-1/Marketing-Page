@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Karma', Times, Arial, Helvetica, sans-serif;
-  color: #DEC79B;
+  color: #dec79b;
 }
 h1,
 h2,
@@ -177,7 +177,7 @@ a {
 }
 .navBorder {
   width: 100%;
-  background: #18181E;
+  background: #18181e;
 }
 .navBar {
   max-width: 800px;
@@ -199,22 +199,22 @@ a {
   align-items: center;
 }
 .navBar .navLinks a {
-  color: #DEC79B;
+  color: #dec79b;
   text-decoration: none;
 }
 .navBar .navLinks a:hover {
   color: #F2E750;
 }
 footer {
-  color: #DEC79B;
-  background: #18181E;
+  color: #dec79b;
+  background: #18181e;
   padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .home {
-  background-color: #18181E;
+  background-color: #18181e;
 }
 .home .intro .man-dead-lift-2 {
   display: flex;
@@ -262,22 +262,22 @@ footer {
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #DEC79B;
-  background-color: #DEC79B;
+  color: #dec79b;
+  background-color: #dec79b;
   border: none;
   border-radius: 15px;
 }
 .home .btn:hover {
-  background-color: #D9A036;
+  background-color: #d9a036;
   color: #fffefc;
 }
 .home .btn:active {
-  background-color: #18181E;
+  background-color: #18181e;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 .home {
-  background-color: #18181E;
+  background-color: #18181e;
 }
 .home .aboutUs .aboutUs-text h2 {
   padding: 15px;
@@ -287,11 +287,15 @@ footer {
 }
 .home .developers {
   display: flex;
-  justify-content: center;
-  align-items: center;
   color: #fffefc;
   padding: 15px;
-  background-color: #D9A036;
+  text-align: center;
+  background-color: #d9a036;
+}
+.home .developers .mem {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
 }
 .home .contact {
   display: flex;
